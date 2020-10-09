@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+p {
+
+    color: white;
+    padding: 10%;
+    line-height: 150%;
+    width: 100%;
+    text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#greeting {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    top: 120px;
+    text-align: center;
+    
+}
+
+.navwrapper {
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.navbar {
+    display: flex;
+    height: 13%;
+    box-shadow: 20px 0px 50px 40px blue;
+    margin-top: 5px;
+}
+
+.navbar > a {
+    font-size: 35px;
+    margin: auto;
+    color: whitesmoke;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+#portrait {
+    display: absolute;
+    margin-left: 1%;
+    width: 50%;
+    height: 50%;
+    left: 0;
+    box-shadow: 0px 0px 50px 1px blue;
+}
+
+#installer {
+    display: absolute;
+    width: 50%;
+    height: 50%;
+    margin-top: 6%;
+    margin-right: 2%;
+    box-shadow: 0px 0px 50px 1px blue;
+}
+
+#game {
+    width: 35%;
+    margin: auto;
+    padding-left: 2%;
+    box-shadow: 0px 0px 50px 1px blue;
+}
+
+.titlewrapper {
+    position: relative;
+    padding-top: 6%;
+    width: 100%;
+}
+
+#line1 {
+    position: absolute;
+    width: 71%;
+    top: 90px;
+    right: 0;
+    float: right;
+    border: solid 2px;
+    border-color: blue;
+    box-shadow: 0px 0px 50px 5px blue;
+
+}
+
+#line2 {
+    position: absolute;
+    width: 77%;
+    left: 0;
+    border: solid 2px;
+    border-color: blue;
+    top: 45%;
+    z-index: 50;
+    box-shadow: 0px 0px 50px 5px blue;
+}
+
+#line3 {
+
+    width: 50%;
+    border: solid 2px;
+    border-color: blue;
+    margin-bottom: 3%;
+    box-shadow: 0px 0px 50px 5px blue;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 75px;
+    justify-content: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: black;
+    margin-top: 10;
+}
+
+#title {
+    position: relative;
+    display: flex;
+    z-index: 55;
+    width: 100%;
+    padding-left: 2%;
+}
+
+#title2 {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    z-index: 52;
+    background-color: black;
+    width: 20%;
+    padding-left: 80%;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px darkblue;
+    justify-content: center;
+    padding-bottom: 5;
+
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.portfolio {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.contact > a {
+    display: flex;
+    color: white;
+    margin: auto;
+    line-height: 100%;
+    font-size: 30px;
+    padding: 1%;
+
+}
+
+#gamewrapper {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 10%;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid blue; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #9b9b9b;
+  }
+  
+  .container {
+    width: 50%;
+    background-color: blue;
+    color: white;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 0px 0px 50px 1px blue;
+  }
