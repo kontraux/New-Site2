@@ -29,7 +29,7 @@ p {
     position: fixed;
     background-color: blue;
     width: 100%;
-    height: 5%;
+    min-height: 60px;
     top: 0;
     left: 0;
     z-index: 99;
@@ -37,13 +37,13 @@ p {
 
 .navbar {
     display: flex;
-    height: 13%;
+    /* height: 13%; */
     box-shadow: 20px 0px 50px 40px blue;
     margin-top: 5px;
 }
 
 .navbar > a {
-    font-size: 35px;
+    font-size: 2.188em;
     margin: auto;
     color: whitesmoke;
     font-style: normal;
