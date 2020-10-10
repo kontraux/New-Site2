@@ -37,8 +37,6 @@ p {
 
 .navbar {
     display: flex;
-    /* height: 13%; */
-    box-shadow: 20px 0px 50px 40px blue;
     margin-top: 5px;
 }
 
@@ -57,7 +55,7 @@ p {
     width: 50%;
     height: 50%;
     left: 0;
-    box-shadow: 0px 0px 50px 1px blue;
+
 }
 
 #installer {
@@ -66,14 +64,15 @@ p {
     height: 50%;
     margin-top: 6%;
     margin-right: 2%;
-    box-shadow: 0px 0px 50px 1px blue;
+
 }
 
 #game {
-    width: 35%;
+    width: 40%;
+    height: 40%;
     margin: auto;
     padding-left: 2%;
-    box-shadow: 0px 0px 50px 1px blue;
+  
 }
 
 .titlewrapper {
@@ -84,13 +83,12 @@ p {
 
 #line1 {
     position: absolute;
-    width: 71%;
+    width: 100%;
     top: 90px;
-    right: 0;
-    float: right;
+    left: 485px;
     border: solid 2px;
     border-color: blue;
-    box-shadow: 0px 0px 50px 5px blue;
+    z-index: 50;
 
 }
 
@@ -102,7 +100,7 @@ p {
     border-color: blue;
     top: 45%;
     z-index: 50;
-    box-shadow: 0px 0px 50px 5px blue;
+
 }
 
 #line3 {
@@ -111,7 +109,7 @@ p {
     border: solid 2px;
     border-color: blue;
     margin-bottom: 3%;
-    box-shadow: 0px 0px 50px 5px blue;
+
 }
 
 h1 {
@@ -120,16 +118,18 @@ h1 {
     font-size: 75px;
     justify-content: center;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    background-color: black;
     margin-top: 10;
+    z-index: 55;
+
 }
 
 #title {
     position: relative;
     display: flex;
-    z-index: 55;
+    z-index: 52;
     width: 100%;
     padding-left: 2%;
+ 
 }
 
 #title2 {
@@ -137,7 +137,6 @@ h1 {
     display: flex;
     justify-self: center;
     z-index: 52;
-    background-color: black;
     width: 20%;
     padding-left: 80%;
     text-align: center;
@@ -199,7 +198,7 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid blue; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    box-sizing: border-box; 
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
@@ -224,5 +223,5 @@ input[type=text], select, textarea {
     color: white;
     padding: 25px;
     margin: auto;
-    box-shadow: 0px 0px 50px 1px blue;
+
   }
