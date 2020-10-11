@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
     padding: 10%;
     line-height: 150%;
     width: 100%;
-    text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px teal, 0 0 25px teal, 0 0 5px darkteal;
 }
 
 #greeting {
@@ -27,7 +27,7 @@ p {
 
 .navwrapper {
     position: fixed;
-    background-color: blue;
+    background-color: teal;
     width: 100%;
     min-height: 60px;
     top: 0;
@@ -43,9 +43,9 @@ p {
 .navbar > a {
     font-size: 2.188em;
     margin: auto;
-    color: whitesmoke;
+    color: white;
     font-style: normal;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px teal, 0 0 5px darkteal;
 }
 
 
@@ -81,13 +81,19 @@ p {
     width: 100%;
 }
 
+.titlewrapper2 {
+    position: relative;
+    padding-top: 6%;
+    width: 60%;
+}
+
 #line1 {
     position: absolute;
     width: 100%;
     top: 90px;
     left: 485px;
     border: solid 2px;
-    border-color: blue;
+    border-color: teal;
     z-index: 50;
 
 }
@@ -97,7 +103,7 @@ p {
     width: 77%;
     left: 0;
     border: solid 2px;
-    border-color: blue;
+    border-color: teal;
     top: 45%;
     z-index: 50;
 
@@ -107,7 +113,7 @@ p {
 
     width: 50%;
     border: solid 2px;
-    border-color: blue;
+    border-color: teal;
     margin-bottom: 3%;
 
 }
@@ -117,7 +123,7 @@ h1 {
     color: white;
     font-size: 75px;
     justify-content: center;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px teal, 0 0 5px darkteal;
     margin-top: 10;
     z-index: 55;
 
@@ -146,7 +152,7 @@ h2 {
     display: flex;
     color: white;
     font-size: 30px;
-    text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px teal, 0 0 25px teal, 0 0 5px darkteal;
     justify-content: center;
     padding-bottom: 5;
 
@@ -197,7 +203,7 @@ h2 {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid blue; /* Gray border */
+    border: 1px solid teal; /* Gray border */
     box-sizing: border-box; 
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
@@ -219,7 +225,7 @@ input[type=text], select, textarea {
   
   .container {
     width: 50%;
-    background-color: blue;
+    background-color: teal;
     color: white;
     padding: 25px;
     margin: auto;
